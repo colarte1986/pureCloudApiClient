@@ -32,7 +32,7 @@ public class PureCloudClientController {
 	
 	@Value("${purecloud.url}")
 	protected String url_api;
-//mensaje
+
 	@Autowired
 	void PlatformServiceClientImpl(@Qualifier("my-platform") WebClient webClient) {
 		this.webClient = webClient;
